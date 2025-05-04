@@ -2,7 +2,7 @@
 
 * Unity Initialization Codes
 * Unity minimum version: **2022.3**
-* Current version: **0.1.0**
+* Current version: **1.0.0**
 * License: **MIT**
 
 ## Summary
