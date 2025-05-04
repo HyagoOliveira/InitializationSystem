@@ -47,6 +47,7 @@ namespace OneM.Game.SceneSystem
 #if HAS_ADDRESSABLES
             return await UnityEngine.AddressableAssets.Addressables.InstantiateAsync(PREFAB_NAME).Task;
 #else
+            await Task.Yield();
             // Loading using Resources
             return Object.Instantiate(Resources.Load<GameObject>(PREFAB_NAME));
 #endif
