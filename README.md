@@ -11,7 +11,10 @@
 
 ## How To Use
 
-### Using [...]
+### Using User Session Generator
+
+Generates and logs a Unique User Session number just when the game initializes. Only works in a Builds, not in Editor.
+It helps to tack bugs using user ids.
 
 ## Installation
 
