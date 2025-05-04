@@ -1,17 +1,23 @@
 # Initialization System
 
-* [ShortDescription]
+* Unity Initialization Codes
 * Unity minimum version: **2022.3**
 * Current version: **0.1.0**
 * License: **MIT**
 
 ## Summary
 
-[...]
+Initialization Codes for Unity Projects
 
-## How To Use
+## Dependency Instantiater
 
-### Using User Session Generator
+Instantiates the a "Dependencies" Prefab (via Addressables or Resources) into the *DontDestroyOnLoad Scene* when the game enters in Play mode. This make sure to always have an specific prefab instance no matter what scene you play.
+
+It's important to name the Prefab as `Dependencies` and set it as an addressable using the same name. 
+
+If you are not using the Addressables package, place the prefab into a Resources folder.
+
+### User Session Generator
 
 Generates and logs a Unique User Session number just when the game initializes. Only works in a Builds, not in Editor.
 It helps to tack bugs using user ids.
