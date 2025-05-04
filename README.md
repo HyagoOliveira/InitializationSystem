@@ -13,14 +13,16 @@ Initialization Codes for Unity Projects
 
 Instantiates the a "Dependencies" Prefab (via Addressables or Resources) into the *DontDestroyOnLoad Scene* when the game enters in Play mode. This make sure to always have an specific prefab instance no matter what scene you play.
 
-It's important to name the Prefab as `Dependencies` and set it as an addressable using the same name. 
+>**Note 1**: it's important to name the Prefab as `Dependencies` and set it as an addressable using the same name. 
 
-If you are not using the Addressables package, place the prefab into a Resources folder.
+>**Note 2**: if you are not using the Addressables package, place the prefab into a Resources folder.
 
 ### User Session Generator
 
 Generates and logs a Unique User Session number just when the game initializes. Only works in a Builds, not in Editor.
 It helps to tack bugs using user ids.
+
+Both Dependency Instantiater and User Session Generator generate logs only in Builds.
 
 ## Installation
 
