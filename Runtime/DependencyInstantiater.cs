@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Threading.Tasks;
 
-namespace OneM.Game.SceneSystem
+namespace ActionCode.InitializationSystem
 {
     /// <summary>
     /// Instantiates the "Dependencies" Prefab (via Addressables or Resources) into 
