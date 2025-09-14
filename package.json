@@ -1,14 +1,13 @@
 {
   "name": "com.actioncode.initialization-system",
   "displayName": "ActionCode-Initialization System",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2022.3",
   "description": "Unity Initialization Codes.",
   "keywords": [
     "Initialization",
     "Dependencies"
   ],
-  "dependencies": {},
   "license": "MIT",
   "homepage": "https://github.com/HyagoOliveira/InitializationSystem#readme",
   "repository": {
